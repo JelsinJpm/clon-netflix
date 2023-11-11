@@ -1,0 +1,152 @@
+INSERT INTO movies(
+    title,
+    description,
+    poster,
+    genre,
+    duration,
+    category,
+    year
+)
+VALUES(
+    'Avatar',
+    'A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.',
+    'https://c4.wallpaperflare.com/wallpaper/695/1024/947/amazing-avatar-hd-wallpaper-preview.jpg',
+    ARRAY['Action', 'Adventure', 'Fantasy'],
+    '162 min',
+    'movie',
+    '2009'
+),
+(
+	'I Am Legend',
+	'Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.',
+	'https://c4.wallpaperflare.com/wallpaper/405/4/959/will-smith-i-am-legend-m4a1-movies-wallpaper-preview.jpg',
+	ARRAY['Drama', 'Horror', 'Sci-Fi'],
+	'101 min',
+	'movie',
+	'2007'
+),(
+    '300',
+    'King Leonidas of Sparta and a force of 300 men fight the Persians at Thermopylae in 480 B.C.',
+    'https://c4.wallpaperflare.com/wallpaper/368/936/861/300-movies-wallpaper-preview.jpg',
+    ARRAY['Action', 'Drama', 'Fantasy'],
+    '117 min',
+    'movie',
+    '2006'
+),
+(
+    'The Avengers',
+    'Earth''s mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.',
+    'https://c4.wallpaperflare.com/wallpaper/275/717/310/avengers-infinity-war-superheroes-cast-4k-8k-wallpaper-preview.jpg',
+    ARRAY['Action', 'Sci-Fi', 'Thriller'],
+    '143 min',
+    'movie',
+    '2012'
+),
+(
+    'The Wolf of Wall Street',
+    'Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.',
+    'https://c4.wallpaperflare.com/wallpaper/584/985/116/movie-the-wolf-of-wall-street-jordan-belfort-leonardo-dicaprio-wallpaper-preview.jpg',
+    ARRAY['Biography', 'Comedy', 'Crime'],
+    '180 min',
+    'movie',
+    '2013'
+),
+(
+    'Interstellar',
+    'A team of explorers travel through a wormhole in space in an attempt to ensure humanity''s survival.',
+    'https://c4.wallpaperflare.com/wallpaper/527/320/1017/interstellar-movie-movies-astronaut-sea-wallpaper-preview.jpg',
+    ARRAY['Adventure', 'Drama', 'Sci-Fi'],
+    '169 min',
+    'movie',
+    '2014'
+),
+(
+    'Game of Thrones',
+    'While a civil war brews between several noble families in Westeros, the children of the former rulers of the land attempt to rise up to power. Meanwhile a forgotten race, bent on destruction, plans to return after thousands of years in the North.',
+    'https://c4.wallpaperflare.com/wallpaper/413/495/729/game-of-thrones-wallpaper-preview.jpg',
+    ARRAY['Adventure', 'Drama', 'Fantasy'],
+    '56 min',
+    'series',
+    '2011'
+),
+(
+    'Vikings',
+    'The world of the Vikings is brought to life through the journey of Ragnar Lothbrok, the first Viking to emerge from Norse legend and onto the pages of history - a man on the edge of myth.',
+    'https://c4.wallpaperflare.com/wallpaper/394/746/503/ragnar-lodbrok-vikings-tv-fire-wallpaper-preview.jpg',
+    ARRAY['Action', 'Drama', 'History'],
+    '44 min',
+    'series',
+    '2013'
+),
+(
+    'Gotham',
+    'The story behind Detective James Gordon''s rise to prominence in Gotham City in the years before Batman''s arrival.',
+    'https://c4.wallpaperflare.com/wallpaper/850/146/566/batman-arkham-knight-rocksteady-studios-batman-batmobile-wallpaper-preview.jpg',
+    ARRAY['Action', 'Crime', 'Drama'],
+    '42 min',
+    'series',
+    '2014'
+),
+(
+    'Power',
+    'James "Ghost" St. Patrick, a wealthy New York night club owner who has it all, catering for the city''s elite and dreaming big, lives a double life as a drug kingpin.',
+    'https://upload.wikimedia.org/wikipedia/en/thumb/7/77/The_Power_film.jpg/220px-The_Power_film.jpg',
+    ARRAY['Crime', 'Drama'],
+    '50 min',
+    'series',
+    '2014'
+),
+(
+    'Narcos',
+    'A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.',
+    'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11993088_b_h9_aa.jpg',
+    ARRAY['Biography', 'Crime', 'Drama'],
+    '49 min',
+    'series',
+    '2015'
+),
+(
+    'Breaking Bad',
+    'A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family''s financial future.',
+    'https://c4.wallpaperflare.com/wallpaper/582/58/501/breaking-bad-walter-white-jesse-pinkman-wallpaper-preview.jpg',
+    ARRAY['Crime', 'Drama', 'Thriller'],
+    '49 min',
+    'series',
+    '2008'
+),
+(
+    'Doctor Strange',
+    'After his career is destroyed, a brilliant but arrogant and conceited surgeon gets a new lease on life when a sorcerer takes him under her wing and trains him to defend the world against evil.',
+    'https://c4.wallpaperflare.com/wallpaper/340/197/235/doctor-strange-benedict-cumberbatch-marvel-comics-wallpaper-preview.jpg',
+    ARRAY['Action', 'Adventure', 'Fantasy'],
+    '120 min',
+    'movie',
+    '2016'
+),
+(
+    'Rogue One: A Star Wars Story',
+    'The Rebellion makes a risky move to steal the plans to the Death Star, setting up the epic saga to follow.',
+    'https://c4.wallpaperflare.com/wallpaper/791/735/690/star-wars-rogue-one-a-star-wars-story-concept-art-star-destroyer-wallpaper-preview.jpg',
+    ARRAY['Action', 'Adventure', 'Sci-Fi'],
+    '140 min',
+    'movie',
+    '2016'
+),
+(
+    'Assassin''s Creed',
+    'When Callum Lynch explores the memories of his ancestor Aguilar and gains the skills of a Master Assassin, he discovers he is a descendant of the secret Assassins society.',
+    'https://c4.wallpaperflare.com/wallpaper/681/747/801/assassin-039-s-black-creed-flag-wallpaper-preview.jpg',
+    ARRAY['Action', 'Adventure', 'Fantasy'],
+    '120 min',
+    'movie',
+    '2016'
+),
+(
+    'Luke Cage',
+    'Given superstrength and durability by a sabotaged experiment, a wrongly accused man escapes prison to become a superhero for hire.',
+    'https://www.fayerwayer.com/resizer/qZfbL_FwMk6zxr_QPTgHnGCQ3iQ=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/AZLZHFFN7VHKFNB4BFJXIJXBRU.jpg',
+    ARRAY['Action', 'Crime', 'Drama'],
+    '55 min',
+    'series',
+    '2016'
+);
